@@ -44,9 +44,12 @@ export function PersonaSection() {
           </p>
         </ScrollReveal>
         <ScrollReveal direction="up" delay={100}>
-          <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl text-foreground leading-tight text-balance mb-16">
+          <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl text-foreground leading-tight text-balance mb-4">
             体験された方の声
           </h2>
+          <p className="text-xs text-[hsl(var(--soft-brown))] tracking-widest mb-16">
+            〜 大阪オートメッセ2026に体験出展 〜
+          </p>
         </ScrollReveal>
 
         <div>
