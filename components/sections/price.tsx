@@ -29,11 +29,14 @@ export function PriceSection() {
           <p className="text-lg text-[hsl(var(--soft-brown))] line-through mb-4">
             {'¥189,800（税込）'}
           </p>
-          <div className="flex items-baseline justify-center gap-3 mb-2">
+          <div className="flex items-baseline justify-center gap-3 mb-1">
             <span className="inline-block px-3 py-1 bg-[hsl(var(--highlight))] text-[hsl(var(--warm-white))] text-xs font-medium tracking-wider">
-              45% OFF
+              最大 45% OFF
             </span>
           </div>
+          <p className="text-xs text-[hsl(var(--soft-brown))] mb-2">
+            数量限定、早いほどお得にご購入いただけます。
+          </p>
           <p className="text-4xl md:text-5xl font-serif text-foreground mt-4 mb-2">
             {'¥104,390'}
             <span className="text-lg font-sans text-[hsl(var(--soft-brown))]">（税込）</span>
